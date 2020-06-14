@@ -11,6 +11,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  geolocator: ^5.3.1
+  http: ^0.12.1
+  flutter_spinkit: ^4.1.2+1
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +26,16 @@ flutter:
   - images/
 
   fonts:
+  - family: Oswald
+    fonts:
+    - asset: fonts/Oswald-Regular.ttf
+  - family: Teko
+    fonts:
+    - asset: fonts/Teko-Regular.ttf
   - family: Spartan MB
     fonts:
     - asset: fonts/SpartanMB-Black.otf
       weight: 900
+  - family: Amatic SC
+    fonts:
+    - asset: fonts/AmaticSC-Regular.ttf
